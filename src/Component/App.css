@@ -1,0 +1,82 @@
+.card{
+  position:relative;
+  width: 500px;
+  background-image: url(https://previews.123rf.com/images/lishchyshyn/lishchyshyn1904/lishchyshyn190402620/121700238-global-planet-background-global-network-planet-earth-world-map-point-.jpg); 
+  background-size: cover;
+  border-radius: 20px;
+  box-sizing: border-box;
+  color: white;
+  margin: 10px auto;
+  padding: 20px 30px;
+
+        }
+.title{
+ 
+  font-weight: bold;
+  font-size: 30px;
+  text-align:end;
+}
+.container{
+  display:flex;
+  flex-direction:column
+}
+.puce{
+  border-radius: 5px;
+  
+  height: 59px;
+  width: 72px;
+}
+.code{
+  background-color: rgba(187, 255, 0, 0.5);
+ 
+  text-align:center;
+  font-size:30px;
+  font-weight:500;
+  margin-bottom: 0px;
+  width:300px
+}
+
+
+.conatainer-validity{
+  display:flex;
+  justify-content: space-between;
+}
+.val-holder{
+  display:flex;
+  flex-direction: column;
+}
+.pass{
+  font-size: 20px;
+  font-weight: bold;
+}
+.holder{
+  font-size: 20px;
+  font-weight: bold;
+}
+.validity-numbers{
+  display:flex;
+  flex-direction: row
+}
+.validity{
+  display:flex;
+  font-size:10px;
+}
+.validity-thru{
+  padding-top:8px
+}
+.tirer{
+  padding-top:16px
+}
+.validity-month{
+  display:flex;
+  flex-direction: column;
+ 
+}
+.month{
+  font-size:10px
+}
+.expire{
+  line-height: 21px;
+  font-size: 20px;
+  font-weight: bold;
+}
